@@ -55,6 +55,7 @@ function timerStart() {
     if (hr < 10 || hr == 0) {
       hr = '0' + hr;
     } 
+    // Showing the value hr, sec, min, ms on HTML
     timerDisplay.innerHTML = hr + ':' + min + ':' + sec + ':' + '0' + ms;
 
     setTimeout("timerStart()", 10);
