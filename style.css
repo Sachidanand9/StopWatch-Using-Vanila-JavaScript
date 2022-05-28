@@ -1,3 +1,27 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Heading Style Added */
+h1 {
+    font-size: 48px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    text-align: center;
+    line-height: 59px;
+    padding: 0 64px;
+    margin: 0;
+}
+/* In Heading Gold Color Added */
+.gold {
+    font-weight: 900;
+    color: #f2c94c;
+    text-shadow: 0 0 0px #fff, 0 0 50px #f2c94c;
+}
+/* Container Style Added */
 .container{
     background-color: #443939;
     width: 40%;
@@ -8,22 +32,26 @@
     left: 50%;
     padding: 60px 0;
     border-radius: 10px;
+    display: grid;
+    grid-row-gap: 20px;
 }
-.display{
+/* Timer Display Style Added */
+#display{
     position: relative;
     width: 110%;
     background: linear-gradient(-135deg,#13264a,#8c9ead);
     left: -5%;
-    padding: 40px 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 45px 0;
+    font-family:  'Roboto mono', monospace;
     color: #ffffff;
     font-size: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 139, 253, 0.30);
 }
+/* Buttons Style Added */
 .btns{
     width: 80%;
     margin: 60px auto 0 auto;
@@ -31,13 +59,16 @@
     justify-content: space-around;
 }
 .btns button{
-    padding: 10px 20px;
-    background-color: #ffffff;
+    padding: 15px 20px;
+    background-color: #efe3e3;
     color: #141313;
     border: none;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
-    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
     cursor: pointer;
     outline: none;
+}
+.btns button:hover{
+    background: linear-gradient(130deg, #a6988a, #9d6d6d, #6f925a);  
 }
