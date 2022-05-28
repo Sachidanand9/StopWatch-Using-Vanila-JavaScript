@@ -4,20 +4,23 @@ var hr = 0;
 var min = 0;
 var sec = 0;
 var ms = 0;
+// Starting value set as boolean 
 var timer = false;
 
+//Start Function
 function start() {
   if (timer == false) {
         timer = true;
         timerStart();
     }
 }
+//Stop Function
 function stop() {
   if (timer == true) {
     timer = false;
   }
 }
-
+//This is timerStart Function
 function timerStart() {
     if (timer == true) {
     ms = parseInt(ms);
@@ -57,7 +60,7 @@ function timerStart() {
     setTimeout("timerStart()", 10);
   }
 }
-
+//Resest Function
 function reset() {
     timerDisplay.innerHTML = '00:00:00:000';
     timer = false;
