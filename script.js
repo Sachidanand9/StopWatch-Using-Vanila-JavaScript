@@ -1,5 +1,5 @@
 const timerDisplay = document.getElementById('display');
-
+// Initialise Starting Value 
 var hr = 0;
 var min = 0;
 var sec = 0;
@@ -67,4 +67,5 @@ function reset() {
     hr = 0;
     sec = 0;
     min = 0;
+    ms = 0;
 }
