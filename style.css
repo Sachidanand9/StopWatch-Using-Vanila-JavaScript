@@ -27,7 +27,7 @@ h1 {
 }
 /* Container Style Added */
 .container{
-    background-color: #7c7070;
+    background-color: rgba(147, 185, 217, 0.3);
     width: 40%;
     min-width: 500px;
     position: absolute;
@@ -43,7 +43,7 @@ h1 {
 #display{
     position: relative;
     width: 110%;
-    background: linear-gradient(-135deg,#8c9ead,#1f355d);
+    background: rgba(25, 28, 30, 0.3);
     left: -5%;
     padding: 45px 0;
     font-family:  'Roboto mono', monospace;
@@ -63,7 +63,7 @@ h1 {
 }
 .btns button{
     padding: 15px 20px;
-    background-color: #b4a2a2;
+    background-color: rgba(20, 53, 80, 0.3);
     color:black;
     border-color: #9d6d6d;
     font-family: 'Poppins',sans-serif;
@@ -73,5 +73,7 @@ h1 {
     outline: none;
 }
 .btns button:hover{
-    background: linear-gradient(130deg, #a6988a, #9d6d6d, #6f925a);  
+    background: green;  
+    box-shadow: 4px 5px 4px 5px rgba(26, 25, 25, 0.2);
+    
 }
